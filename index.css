@@ -1,0 +1,44 @@
+h1{text-align:center;
+    color:#ff1493;
+    border:solid;
+    border-color:#006eff
+}
+
+body{
+    background-image: linear-gradient(to right, #006eff, #ff1493 );
+}
+
+p{
+    border:solid;
+    border-color:#ff1493;
+    width:450px;
+    height:350px;
+    font-size:20px
+}
+
+img{width:200px;
+    margin:auto;
+    display:block;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-60%,-60%)
+}
+
+audio{margin:auto;
+    display:block;
+    position:absolute;
+    transform:translate(285%,-600%)
+}
+
+.merliah{border:solid;
+    border-color:#ff1493;
+    width:650px;height:450px;
+    font-size:20px
+}
+
+@media (max-widht: 1200px) {
+    section {
+        widht: 1000px;
+    }
+}
